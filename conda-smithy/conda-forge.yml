@@ -1,0 +1,6 @@
+github:
+  user_or_org: gouarin
+channels:
+  targets:
+    - [gouarin, main]
+
