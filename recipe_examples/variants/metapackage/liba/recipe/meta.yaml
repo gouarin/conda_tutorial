@@ -1,0 +1,14 @@
+package:
+  name: liba
+  version: 0.1
+
+build:
+  number: 0
+  track_features:
+    - liba
+  run_exports:
+    - {{ pin_subpackage('liba', min_pin='x.x', max_pin='x.x') }}
+
+requirements:
+  run:
+    - malib 1.0 liba

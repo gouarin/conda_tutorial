@@ -1,0 +1,13 @@
+package:
+  name: malib
+  version: 1.0
+
+build:
+  number: 0
+  string: {{ malib }}
+
+requirements: {}
+
+test:
+  commands:
+    - echo "I'm a metapackage"

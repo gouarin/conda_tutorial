@@ -1,0 +1,18 @@
+package:
+  name: hello-cpp
+  version: 0.1.0
+
+source:
+  path: ../
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - {{ compiler('cxx') }}
+    - cmake
+
+test:
+  commands:
+    - hello_cpp
