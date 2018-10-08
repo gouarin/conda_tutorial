@@ -1,0 +1,21 @@
+package:
+  name: hello-python
+  version: 0.1
+
+source:
+  path: ../
+
+build:
+  number: 0
+  script: python setup.py install
+
+requirements:
+  host:
+    - python
+    - setuptools
+  run:
+    - python
+
+test:
+  commands:
+   - hello_python
