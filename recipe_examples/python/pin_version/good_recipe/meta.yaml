@@ -1,0 +1,16 @@
+package:
+  name: bad-version
+  version: 0.1
+
+build:
+  number: 0
+
+requirements:
+  host:
+    - numpy=1.11
+  run:
+    - {{ pin_compatible('numpy', max_pin='x.x') }}
+
+test:
+  imports:
+    - numpy

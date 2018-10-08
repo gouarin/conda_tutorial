@@ -1,0 +1,8 @@
+package:
+  name: libb
+  version: 0.1
+
+build:
+  number: 0
+  run_exports:
+    - {{ pin_subpackage('libb', min_pin='x.x', max_pin='x.x') }}

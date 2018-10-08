@@ -4,8 +4,6 @@ package:
 
 build:
   number: 0
-  track_features:
-    - libb
   run_exports:
     - {{ pin_subpackage('libb', min_pin='x.x', max_pin='x.x') }}
   

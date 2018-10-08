@@ -1,0 +1,10 @@
+package:
+  name: test
+  version: 0.1
+
+build:
+  number: 0
+  #string: {{ malib }}
+requirements:
+  host:
+    - {{ malib }}
